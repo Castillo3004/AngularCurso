@@ -18,13 +18,12 @@
   
   button {
     background-color: black;
-    border-radius: 5px;
+    border-radius: 6px;
     border: 0px;
     color: white;
     cursor: pointer;
-    margin-right: 5px;
-    margin-left: 5px;
-    padding: 5px 10px;
+    margin: 5px 5px;
+    padding: 8px 15px;
   }
   
   button:hover {
@@ -37,4 +36,22 @@
   
   .p-1 {
     padding: 1px;
+  }
+
+  .row{
+    display: flex;
+  }
+
+  .col{
+    flex-grow: 1;
+    margin: 5px 10px;
+  }
+
+  input {
+    display: block;
+    margin: 10px 0px;
+    border: 0;
+    border-bottom: 1px solid rgb(126, 126, 126);
+    height: 30px;
+    width: 175px;
   }
